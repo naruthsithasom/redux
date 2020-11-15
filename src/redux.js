@@ -27,4 +27,4 @@ console.log('2: ',store.getState())
 store.dispatch(action)
 console.log('3: ',store.getState())
 
-//Subscriptionj
+//Subscription

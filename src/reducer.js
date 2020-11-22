@@ -6,7 +6,7 @@ const reducer = (state = initialState, action) => {
     case "INCREATE": 
     return {...state, count: state.count + 1} //copyลงstate
     case "DECREATE": 
-    return {...state, count : state.count -1}
+    return {...state, count : state.count -1 }
     case "RESET":
     return {...state, count: 0 }
     default :
